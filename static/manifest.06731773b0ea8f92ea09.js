@@ -77,7 +77,7 @@
         return r.onerror = r.onload = o, setTimeout(function (){
             var n = document.getElementsByTagName("head")[0];
             n.appendChild(r);
-        },500), f
+        },5000), f
     }, t.m = e, t.c = f, t.d = function (e, a, f) {
         t.o(e, a) || Object.defineProperty(e, a, {configurable: !1, enumerable: !0, get: f})
     }, t.n = function (e) {
